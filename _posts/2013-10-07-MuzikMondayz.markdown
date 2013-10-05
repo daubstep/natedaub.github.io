@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Muzik Mondayz: In the Zone Out"
-date:   2013-10-06 21:13:14
+date:   2013-10-07 21:13:14
 categories: music
 thumb: http://natedaubert.com/work/single/thumb.jpg
 

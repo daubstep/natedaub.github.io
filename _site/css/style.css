@@ -1,0 +1,322 @@
+@import url("reset.css");
+@import url("/../webfont/stylesheet.css");
+
+html,body{
+	background: #E0E2E2 url("../img/grid.png") center center repeat;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "kontrapunkt_boblight", sans-serif;
+	color: #000000;
+}
+
+/*General Styles*/
+svg{
+	display:block
+}
+
+a{
+	color: #000000;
+	transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-webkit-transition: color .2s ease-in-out;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #bbbbbb;
+}
+
+.bold{
+	font-family: "kontrapunkt_bobbold", sans-serif;
+}
+
+.strike{
+	opacity: .3;
+	text-decoration: line-through;
+}
+
+p {
+	padding-bottom: 1em;
+	margin: 0;
+}
+
+p a{
+	text-decoration: underline;
+}
+
+img{
+	border: none;
+}
+
+/*Header*/
+
+#wrapper{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	text-align: center;
+}
+
+#main{
+	position: relative;
+	width: 650px;
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 30px 0 31px;
+	border-left:#ddd solid 1px;
+	border-right:#ddd solid 1px;
+	background: #fff;
+	text-align: left;
+}
+
+#header{
+	width: 100%;
+}
+
+#logo{
+	width: 2.8em;
+	float: left;
+	padding: 1.9em 0 0;
+	display: block;
+}
+
+#logo img{
+	width: 100%;
+}
+
+#nav{
+	padding: 3.45em 0 0 0;
+	display: block;
+	float: right;
+}
+
+#nav ul{
+	list-style: none;
+	margin: 0;
+	text-transform: uppercase;
+
+}
+
+#nav ul li{
+	float: left;
+	padding-left: 1em;
+	font-family: "kontrapunkt_bobbold", sans-serif;
+}
+
+#nav ul li a{
+	text-decoration: none;
+}
+
+#workactive a{
+	color: #bbbbbb !important;
+}
+
+#playactive a{
+	color: #bbbbbb !important;
+}
+
+#bioactive a{
+	color: #bbbbbb !important;
+}
+
+#contactactive a{
+	color: #bbbbbb !important;
+}
+
+#noteactive a{
+	color: #bbbbbb !important;
+}
+
+/*Content*/
+#content{
+	height:auto;
+	width:100%
+	 animation: fadein .5s;
+    -moz-animation: fadein .5s;
+    -webkit-animation: fadein .5s;
+    -o-animation: fadein .5s; 
+    text-align:justify;
+	padding: 7em 0 2em; 0;
+}
+
+.althealth{
+	background-image: url("../projects/althealth/althealth.png") !important;
+	background-size:cover !important;
+}
+
+p.big{
+	font-size: 4em;
+}
+
+p.big a{
+	text-decoration: none;
+}
+
+p.copy{
+	line-height: 1.5em ;
+}
+
+p.blurb {
+	padding: 2em 1em;
+	margin-bottom: 4em;
+	border-bottom: solid 1px #ddd;
+	border-top: solid 1px #ddd;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}​
+
+
+
+/*Grid*/
+
+#grid{
+	height: auto;
+}
+
+.pane{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box;
+	width:50%;
+	height: 17em;
+	padding: 0 .55em 1.1em 0;
+	float: left;
+}
+
+.pane2{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box;
+	width:50%;
+	height: auto;
+	padding: 0 0 1.1em .55em;
+	float: left;
+}
+
+.art{
+	width: 100%;
+	height: 16em;
+	background: #000000;
+}
+
+.art h3{
+	transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 16em;
+	line-height: 1em;
+	color: #ffffff;
+	background: #000000;
+	text-align: center;
+	opacity: 0;
+	font-weight: normal;
+	display: block;
+	filter: alpha(opacity = 0);
+	zoom:1;
+	text-decoration: none;
+}
+
+.art a{
+	text-decoration: none;
+}
+
+.art h3:hover{
+	opacity: 0.8;
+	line-height: 16em;
+
+}
+
+
+#grid img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 40px;
+}
+
+
+/*Footer*/
+#footer{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+#footercolor{
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+
+@media screen {
+	#colorfix{
+		display: none;
+	}
+}
+
+.post p{
+	line-height: 1.5;
+}
+
+#content h2{
+	font-family: "kontrapunkt_bobbold", sans-serif;
+	font-size: 1.5em;
+	margin-bottom: .3em;
+}
+
+#content .meta{
+	padding: 3px;
+	font-size: .7em;
+	background: #000;
+	color: #fff;
+	display:inline;
+}
+
+#content .meta p{
+	margin-bottom: 2em;
+}
+
+
+

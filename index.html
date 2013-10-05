@@ -3,11 +3,20 @@ layout: default
 title: Your New Jekyll Site
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
+<div id="posts">
+	<div id="grid">
+		<p class="copy blurb">A collection of things I find, think and simply want to write about.</p>
+			
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <div class="pane">
+			<a href="{{ post.url }}">	
+				<div class="art" style="background: url('{{ post.thumb }}') center center;">
+					<h3>{{ post.title }}</h3>
+				</div>
+			</a>
+		</div>
     {% endfor %}
-  </ul>
+  			<div style="clear:both"></div>
+		</div>
+	</div>
 </div>

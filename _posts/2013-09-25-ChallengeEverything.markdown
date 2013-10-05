@@ -2,7 +2,9 @@
 layout: post
 title:  "Challenge Everything"
 date:   2013-09-25 21:13:14
-categories: lifestyle
+categories: life
+thumb: http://natedaubert.com/work/single/thumb.jpg
+
 ---
 
 Some people say I'm argumentative. I admit it I am. Maybe it's in my genes, maybe it's how I've been raised, maybe it's what makes me a designer. One thing I will say is that I challenge everything and you should, too.

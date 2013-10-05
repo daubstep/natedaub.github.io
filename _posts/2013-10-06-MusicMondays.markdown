@@ -6,7 +6,7 @@ categories: music
 thumb: http://notes.natedaubert.com/assets/musicmonday_100713.jpg
 ---
 
-<iframe width="100%" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F11638288&amp;color=064352&amp;auto_play=false&amp;show_artwork=false"></iframe>
+<iframe width="100%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F11638288&amp;color=064352&amp;auto_play=false&amp;show_artwork=false"></iframe>
 
 
 

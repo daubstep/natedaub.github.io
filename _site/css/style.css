@@ -140,7 +140,7 @@ img{
     -webkit-animation: fadein .5s;
     -o-animation: fadein .5s; 
     text-align:justify;
-	padding: 7em 0 2em; 0;
+	padding: 7em 0 5em 0;
 }
 
 .althealth{
@@ -316,5 +316,49 @@ p.blurb {
 	margin-bottom: 2em;
 }
 
+ul#stream li {
+	padding: 0;
+		background: #fff;
+	width: 100%;
+	margin: 0 0 35px 0;
+	float: right;
+	transition: background .2s ease-in-out;
+	-moz-transition: background 2s ease-in-out;
+	-webkit-transition: background .2s ease-in-out;
+	transition: width .2s ease-in-out;
+	-moz-transition: width 2s ease-in-out;
+	-webkit-transition: width .2s ease-in-out;
+}
 
+
+ul#stream li:hover{
+	background: #f0f0f0;
+	width: 99%;
+}
+
+ul#stream a li h3{
+	float: left;
+	font-family: "kontrapunkt_bobbold", sans-serif;
+	font-size: 1.5em;
+	margin: 0;
+	transition: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+	color: #000;
+}
+
+ul#stream a li h3:hover{
+	float: left;
+	font-family: "kontrapunkt_bobbold", sans-serif;
+	font-size: 1.5em;
+	margin: 0;
+	color: #000;
+}
+
+
+ul#stream li img{
+	width: 100px !important;
+	float: left;
+	margin: 0 20px 0 0;
+}
 

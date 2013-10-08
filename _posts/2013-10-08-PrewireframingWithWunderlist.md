@@ -6,9 +6,7 @@ categories: Methods
 thumb: assets/wunderlist_100813.png
 ---
 
-The interaction design industry is at it's prime.
-
-Most people start with wireframing (laying out content with sketches or app like balsamiq.) It's important to break apart the content and beautification process, helping the designer and the client focus on smaller pieces of the puzzle, instead of everything at once. 
+Most interaction designers start with wireframing — laying out content with sketches or app like balsamiq. It's important to break apart the content and beautification process, helping the designer and the client focus on smaller pieces of the puzzle, instead of everything at once. 
 
 But beginning with wireframing can cause problems. Users only read [20% of content on a page](http://www.nngroup.com/articles/how-little-do-users-read/), so while wireframing may help with organizing content — it doesn't help with assuring the most visible content is actually important. 
 

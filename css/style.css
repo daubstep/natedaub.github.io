@@ -362,3 +362,15 @@ ul#stream li img{
 	margin: 0 20px 0 0;
 }
 
+.post p{
+	text-align: left;
+}
+
+.streamblurb p{
+	padding-top: 10px !important;
+	margin: 0 !important;
+}
+
+.streamblurb h3{
+	margin: 0px 0 0 0 !important;
+}

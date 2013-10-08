@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Prewireframing with Wunderlist"
+title:  "Pre-wireframing with Wunderlist"
 date:   2013-10-08
 categories: Methods
 thumb: assets/wunderlist_100813.png

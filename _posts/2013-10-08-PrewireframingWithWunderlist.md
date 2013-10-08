@@ -24,5 +24,4 @@ When all the elements have been sorted, order everything by importance. Then go 
 
 Once this is done, you're ready to wireframe. When designing your wireframe, the top 20% of items on your list should be impossible to miss. Resize the list or open it on your phone/tablet so it's visible while wireframing and get to work!
 
-**Tip**
-Keep your lists open until you are ready to launch. It's a great way to keep track of elements on a page. You can easily sync the lists between coworkers and comment on status updates, styles and potential problems.
+Tip: Keep your lists open until you are ready to launch. It's a great way to keep track of elements on a page. You can easily sync the lists between coworkers and comment on status updates, styles and potential problems.

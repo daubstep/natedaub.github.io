@@ -8,7 +8,7 @@ thumb: assets/wunderlist_100813.png
 
 Most interaction designers start with wireframing — laying out content with sketches or an app like balsamiq. It's important to break apart the content and beautification process, helping the designer and the client focus on smaller pieces of the puzzle, instead of everything at once. 
 
-But beginning with wireframing can cause problems. Users only read [20% of content on a page](http://www.nngroup.com/articles/how-little-do-users-read/), so while wireframing may help with organizing content — it doesn't help with assuring the most visible content is actually important. 
+Beginning with wireframing, however, can cause problems. Users only read [20% of content on a page](http://www.nngroup.com/articles/how-little-do-users-read/), so while wireframing may help with organizing content — it doesn't help with assuring the most visible content is actually important. 
 
 This is why I begin my design process one step earlier – sorting all the information on a page by importance. For that, I use Wunderlist.
 

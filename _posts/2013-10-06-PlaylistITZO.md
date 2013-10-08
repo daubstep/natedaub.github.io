@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "In the Zone Out"
+title:  "Playlist: In the Zone Out"
 date:   2013-10-06 21:13:14
 categories: Music
 categoryurl: /categories/music

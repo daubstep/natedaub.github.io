@@ -2,7 +2,7 @@
 @import url("/../webfont/stylesheet.css");
 
 html,body{
-	background: #E0E2E2 url("../img/grid.png") center center repeat;
+	background: #E0E2E2;
 	height: 100%;
 	width: 100%;
 	margin: 0;

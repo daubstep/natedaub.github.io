@@ -15,6 +15,7 @@ categories: Methods
 
 <ul id="stream">
     {% for post in site.posts %}
+    	{% for post in site.categories.Music %}
            <a href="{{ post.url }}">
            <li>	
 				<div>
@@ -26,6 +27,7 @@ categories: Methods
 				<div style="clear:both">
 		</li>
 		</a>
+		{% endfor %}
     {% endfor %}
 </ul>
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Your New Jekyll Site
+categories: Methods
 ---
 
 <div id="posts">
@@ -13,7 +14,7 @@ title: Your New Jekyll Site
 			{% endif %}
 
 <ul id="stream">
-    {% for post in paginator.posts %}
+    {% for post in site.[page.category] %}
            <a href="{{ post.url }}">
            <li>	
 				<div>
